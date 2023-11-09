@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuron</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="http://127.0.0.1:5500/activity.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+        </svg>
+        Neuron
+      </a>
+      <ul class="nav col-lg-auto me-lg-auto justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/instruction.html" class="nav-link px-2 text-secondary">Instructions</a></li>
+        <li><a href="#" class="nav-link px-2 text-secondary">Activities</a></li>
+      </ul>
+      <a class="btn btn-sm btn-outline-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+      </svg></a>
+      </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center py-5">
+            <div class="ratio ratio-21x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=PbaCJXJdIUzjL8Aq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          <div class="col">
+            <hr class="my-4">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Activity name</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum, sem vitae dapibus eleifend, tellus elit auctor orci, id ornare arcu dui pellentesque risus. Phasellus consequat nunc quis lectus dapibus, in molestie magna aliquam. Proin eu orci vel lacus ullamcorper dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ut purus elementum, lacinia velit ut, laoreet est. Vestibulum mi augue, varius nec tellus vel, gravida accumsan mi. Nulla pretium nec erat id dignissim. Aliquam erat volutpat.
+
+                Maecenas vulputate eleifend turpis.
+                Vivamus ut interdum lorem, hendrerit vestibulum eros. Suspendisse vitae felis vestibulum, dictum ex in, pharetra nunc. Praesent ultrices nibh vel risus lacinia auctor. Aliquam erat volutpat. Nulla at eleifend metus, tempus efficitur sapien. In nec efficitur felis. Proin vitae commodo mi, in volutpat dolor. Donec quis pharetra risus. Cras eros felis, bibendum sed dapibus interdum, cursus ut ipsum. Fusce dictum sit amet quam quis sodales. Fusce sit amet orci quis magna euismod condimentum. Vestibulum ac lectus at metus aliquam dignissim. Pellentesque molestie et diam sed hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus purus elit, suscipit in dignissim ornare, vulputate eget quam. Cras non efficitur dolor.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+        <h3 class="display-8 fw-bold text-body-emphasis lh-1 mb-3">Candidates who showed symptoms</h3>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="child's name">
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Class</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-secondary" type="submit">Submit</button>
+        <hr class="my-4">
+      </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+{% include "footer.html" %}
