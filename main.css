@@ -1,0 +1,126 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.login{
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    margin-right: 20px;
+    
+    border-radius: 30px;
+    border : 2px solid black;
+}
+
+.login select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.login select a option {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.right-section ul {
+    list-style: none;
+}
+
+.right-section ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.about {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+}
+
+.about:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.about:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+}
+
+.faqs {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+   
+}
+
+.faqs:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.faqs:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+    
+}
+.cmct {
+    position: relative;
+    color: black; /* Change the color to your desired default color */
+    text-decoration: none;
+   
+}
+
+.cmct:hover {
+    color: blue; /* Change the color to your desired hover color */
+}
+
+.cmct:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid blue; /* Line color matching hover color */
+    
+}
+
